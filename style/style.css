@@ -4,12 +4,17 @@
     margin: 0 auto;
 }
 .title_bg .title {
-    width: 1200px;
+    width: 1200px; margin: 0 auto;
+    padding-top: 100px;
 }
-.title_bg .title p{}
+.title_bg .title p{
+    position: relative; top: 0; left: 150px;
+    color: #fff;
+}
 .title_bg .title p span{}
 .title_bg .title h1 {
     font-size: 5em; text-align: center;
+    font-weight: 600;
 }
 .title_bg .title #top{
     color: #DBFDFF;
@@ -21,8 +26,6 @@
     width: 1061px; height: 1105px;
     border-radius: 500px 500px 0 0 ;
     background:rgba(255, 255, 255, 0.80);
-
-
 }
 .title_bg .tourist #title{}
 .title_bg .tourist #title li{}
@@ -30,6 +33,12 @@
 .title_bg .tourist #title li p{}
 .title_bg .tourist #title li h2{}
 .title_bg .tourist .list {}
+.title_bg .tourist .list ul {
+    width: 298px; height: 361px;
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 120px; text-align: center;
+    padding-top: 30px;
+}
 .title_bg .tourist .list #sheep {}
 .title_bg .tourist .list #sheep li{}
 .title_bg .tourist .list #sheep li h3{}
@@ -50,20 +59,26 @@
 .title_bg .tourist .list #sky li h3{}
 .title_bg .tourist .list #sky li p{}
 .food_bg {
-    background: url(../images/market_bg.png);
+    background-color: rgba(00,00,00,0.8);
+    background-image: url(../images/market_bg.png);
     width: 1440px; height: 1028px;
     margin: 0 auto;
 }
-.food_bg .market {}
+.food_bg .market {
+    text-align: center;
+}
 .food_bg .market p {}
 .food_bg .market h2 {}
 .food_bg .market ul {
+
+}
+.food_bg .market ul li {
+    width: 1200px;
     display: flex; flex-flow: column nowrap;
     justify-items: start;
-    align-items: flex-start;
+    align-items: center;
     width: 33%;
 }
-.food_bg .market ul li {}
 .food_bg .market ul li img {}
 .food_bg .market ul li p {}
 .food_bg .market ul li h3 {}
