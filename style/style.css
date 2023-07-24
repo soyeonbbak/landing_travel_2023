@@ -1,1 +1,74 @@
-.
+.title_bg {
+    background:pink url(../images/title_bg.png);
+    width: 1440px; height: 1870px;
+    margin: 0 auto;
+}
+.title_bg .title {
+    width: 1200px;
+}
+.title_bg .title p{}
+.title_bg .title p span{}
+.title_bg .title h1 {
+    font-size: 5em; text-align: center;
+}
+.title_bg .title #top{
+    color: #DBFDFF;
+}
+.title_bg .title #btm{
+    color: #FFDAFE;
+}
+.title_bg .tourist {
+    width: 1061px; height: 1105px;
+    border-radius: 500px 500px 0 0 ;
+    background:rgba(255, 255, 255, 0.80);
+
+
+}
+.title_bg .tourist #title{}
+.title_bg .tourist #title li{}
+.title_bg .tourist #title li img{}
+.title_bg .tourist #title li p{}
+.title_bg .tourist #title li h2{}
+.title_bg .tourist .list {}
+.title_bg .tourist .list #sheep {}
+.title_bg .tourist .list #sheep li{}
+.title_bg .tourist .list #sheep li h3{}
+.title_bg .tourist .list #sheep li p{}
+.title_bg .tourist .list #tree li{}
+.title_bg .tourist .list #tree li h3{}
+.title_bg .tourist .list #tree li p{}
+.title_bg .tourist .list #mount{}
+.title_bg .tourist .list #mount li{}
+.title_bg .tourist .list #mount li h3{}
+.title_bg .tourist .list #mount li p{}
+.title_bg .tourist .list #mangsang{}
+.title_bg .tourist .list #mangsang li{}
+.title_bg .tourist .list #mangsang li h3{}
+.title_bg .tourist .list #mangsang li p{}
+.title_bg .tourist .list #sky {}
+.title_bg .tourist .list #sky li {}
+.title_bg .tourist .list #sky li h3{}
+.title_bg .tourist .list #sky li p{}
+.food_bg {
+    background: url(../images/market_bg.png);
+    width: 1440px; height: 1028px;
+    margin: 0 auto;
+}
+.food_bg .market {}
+.food_bg .market p {}
+.food_bg .market h2 {}
+.food_bg .market ul {
+    display: flex; flex-flow: column nowrap;
+    justify-items: start;
+    align-items: flex-start;
+    width: 33%;
+}
+.food_bg .market ul li {}
+.food_bg .market ul li img {}
+.food_bg .market ul li p {}
+.food_bg .market ul li h3 {}
+.food_bg .special_food {}
+.food_bg .special_food h3 {}
+.food_bg .special_food ul {}
+.food_bg .special_food ul li{}
+.food_bg .special_food ul li{}
